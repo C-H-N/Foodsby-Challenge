@@ -1,0 +1,83 @@
+
+
+.foodsby-code-challenge {
+  width: 650px;
+  font-family: Geneva, Tahoma, Verdana, sans-serif; 
+}
+
+.foodsby-code-challenge .header {
+  font-size: 14px;
+  font-weight: bold;
+  color: #CF2A28;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.foodsby-code-challenge .day-selector {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.foodsby-code-challenge .day-selector button {
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  background-color: white;
+  padding: 0;
+  width: 90px;
+}
+
+.foodsby-code-challenge .day-selector button.active-day-button {
+  background-color: #92BBF4;
+}
+
+.foodsby-code-challenge .restaurant {
+  padding: 20px;
+  border-bottom: 2px solid #CF2A28;
+}
+
+.foodsby-code-challenge .restaurant .restaurant-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #CF2A28;
+}
+
+.foodsby-code-challenge .restaurant-sold-out .sold-out-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.foodsby-code-challenge .restaurant-sold-out > * {
+  text-align: center;
+}
+
+.foodsby-code-challenge .time-display {
+  margin: 0 10px;
+  padding: 0 2px;
+  border: 1px solid black;
+  width: 80px;
+  text-align: left;
+}
+
+.foodsby-code-challenge .restaurant:last-of-type {
+  border-bottom: none;
+}
+
+.foodsby-code-challenge .restaurant button {
+  border: 1px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  color: white;
+  background-color: #CF2A28;
+  padding: 0;
+  width: 100%;
+}
+
+.foodsby-code-challenge .restaurant-details > * {
+  margin: 10px 0;
+}
+
+.foodsby-code-challenge .time-display-wrapper {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
